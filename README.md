@@ -89,3 +89,8 @@ class ExampleTest extends TestCaseAbstract
 	}
 }
 ```
+
+Test in CMD
+```bash
+$ ./vendor/bin/phpunit --bootstrap ./vendor/autoload.php ./tests/ExampleProject/ExampleTest.php
+```
