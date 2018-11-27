@@ -93,4 +93,7 @@ class ExampleTest extends TestCaseAbstract
 Test in CMD
 ```bash
 $ ./vendor/bin/phpunit --bootstrap ./vendor/autoload.php ./tests/ExampleProject/ExampleTest.php
+$ ./vendor/bin/phpunit --bootstrap ./vendor/autoload.php ./tests/ExampleProject/ExampleTest.php --testdox
+$ ./vendor/bin/phpunit tests/ExampleProject/ExampleTest.php
+
 ```

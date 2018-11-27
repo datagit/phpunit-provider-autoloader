@@ -36,6 +36,6 @@ class ExampleTest extends TestCaseAbstract
 
     public function testMethod(array $row)
     {
-        $this->assertEquals($row['expect'], $row['actual']);
+        $this->assertEquals($row['expect'], $row['a'] + $row['b']);
     }
 }
